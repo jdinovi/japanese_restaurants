@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     url = "https://api.yelp.com/v3/businesses/search?sort_by=best_match&limit=50"
 
     # Yelp API Authentication Key
-    key = 'LxvXmOaNEwhHOcObouKMKmHG_grsIlTv3WbQjNeF5wUAr7Bpehay0f-TJe_Qu3GbP7Q6QYNKL_VoaCBx6uCAE8_4jMDoy_VvN2uDroftwkQzLqQdu3qijVqA16LkY3Yx'
+    key = 'key_here'
     
     # Header to pass key into request
     headers = {
